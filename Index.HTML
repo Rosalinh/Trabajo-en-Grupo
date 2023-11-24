@@ -1,0 +1,134 @@
+¡<!DOCTYPE HTML>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<title>Actividad 15:Documentación para CSS por Rosalin Huara Lopez</title>
+</head>
+
+<body>
+
+ <style>
+    body ¨{
+      background-color: #ffffff;  
+    }
+
+    header{
+    background-color: #131b16;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 12px;
+    }
+
+    h1{
+     text-shadow: 9px 5px 7px black;  
+    }
+        
+    #titulo{
+        background-color: #000000;
+        color: #ffffff;
+        border: 15px, 0px;
+    }
+
+    #menuPrincipal{
+    background-color: #fdfdfd;
+    border-radius: 3px;
+    }
+            
+    nav ul{
+    list-style: none;
+    padding: 0px;
+    border: #ffffff;
+
+}
+
+a:hover {
+color: black;
+background: yellow;
+}
+
+@media (hover: hover) {
+
+a:hover {
+color: rgb(133, 222, 255);
+background: rgb(52, 0, 0);
+}
+}
+
+
+    nav ul li{
+    display: inline;
+    margin: 0px 15px;
+    }
+
+    .enlaceMenuPrincipal{
+    text-decoration: none;
+    color:#000000;
+    padding: 10px, 20px;               
+    }
+    
+    .tituloSeccion{  
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    }
+
+    .art{
+    border: 1px solid #ececec;
+    background-color: rgb(255, 255, 255);
+    border: 10px; 
+    padding: 10px;
+        }
+
+    footer{
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    border: 20px;
+        }
+ </style>
+    <header>
+        <h1 id="titulo">Encabezado</h1>
+    <nav id="menuPrincipal">
+        <ul>
+           
+                <li><a class="enlaceMenuPrincipal" href="#">Enlace 1</a></li>
+                <li><a class="enlaceMenuPrincipal" href="#">Enlace 2</a></li>
+                <li><a class="enlaceMenuPrincipal" href="#">Enlace 3</a></li>
+               
+        </ul>
+    </nav>
+    </header>
+</body>
+<main>
+
+    <section>
+        <h2 class="tituloSeccion">Sección Principal</h2>
+    </section>
+
+    <article class="art" >
+        <h3>Artículo 1</h3>
+        <p>Contenido del artículo 1.</p>
+    </article>
+
+    <article class="art">
+        <h3>Artículo 2</h3>
+        <p>Contenido del artículo 2.</p>
+    </article>
+    </main>
+
+<footer>
+    <style>
+        footer{
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+    <p>Pie de página.</p>
+</footer>
+</html>
